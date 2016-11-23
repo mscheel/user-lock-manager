@@ -25,15 +25,16 @@ Welcome to Lock Manager!
 
 ## How to...Install App
 
-1. *Go to* **[Apps](https://graph.api.smartthings.com/ide/apps)** in IDE
-1. *Click* "New App +"
+1. *Go to* **[Apps](https://graph.api.smartthings.com/ide/apps)** in a desktop web browser
+- alternative: smartthings.com, click community, click developer tools, click my locations, click your location, now the url in your browser will be like: https://graph-[stuff].api.smartthings.com/location/show/[uuid] -- if you don't do this syncing with your app won't work later
+1. *Click* "My SmartApps" then the "+New SmartApp" button
 1. *Click* "From Code"
 1. *Copy* from **[github](https://raw.githubusercontent.com/ethayer/user-lock-manager/master/smartapps/ethayer/user-lock-manager.src/user-lock-manager.groovy)**
 1. *Paste* into textarea on SmartThings
 1. *Click* Publish > For Me
 
 ## How to...Add Device Handler:
-1. Navigate to: https://graph.api.smartthings.com/ide/devices
+1. Click Smart Devices
 1. Click **'New SmartDevice'** in the upper right.
 1. Click **'From Code'**
 1. Paste the code from the link (github) above into the text area:
@@ -44,7 +45,7 @@ Welcome to Lock Manager!
 1. Click **'Publish'** > **'For Me'**
 
 ## Change lock device handler to new code:
-1. Navigate to **'My Devices'**:  https://graph.api.smartthings.com/device/list
+1. Click **'My Device Handlers'**
 1. Locate your lock and click on the **name** in the _first column_
 1. Click **'Edit'** on the bottom of the page view
 1. In the **'Type'** drop-down scroll to the bottom and select **'Z-Wave Lock Reporting'**
